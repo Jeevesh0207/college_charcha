@@ -1,0 +1,59 @@
+
+.College{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.College{
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    /* background-color: yellowgreen; */
+    background-color: #f3f4fa;
+    flex-direction: column;
+}
+
+.College .container{
+    max-width: 1500px;
+    width: 85%;
+    min-height: calc(100vh - 100px);
+    /* background-color: rgb(200, 255, 0); */
+    display: flex;
+    position: relative;
+}
+
+@media screen and (max-width:1200px) {
+    .College .container {
+        width: 100%;
+    }
+}
+
+.College .container .Left{
+    width: 200px;
+    /* min-height: auto; */
+    /* background-color: olive; */
+    background-color: #f3f4fa;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.College .container .Right{
+    width: calc(100% - 200px);
+    min-height: calc(200vh - 100px);
+    /* background-color: blanchedalmond; */
+}
+
+@media screen and (max-width:950px){
+    .College .container{
+        flex-direction: column;
+    }
+    .College .container .Left{
+        width: 100%;
+        min-height: auto;
+    }
+    .College .container .Right{
+        width: 100%;
+        min-height: auto;
+    }
+}

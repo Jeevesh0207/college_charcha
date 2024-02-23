@@ -1,0 +1,156 @@
+
+.FAQ .FAQ_Top{
+    display: flex;
+    align-items: center;
+}
+
+.FAQ{
+    width: 100%;
+    min-height: auto;
+    background-color: aqua;
+    background-color: #f4f4f4;
+    padding-left: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.FAQ .FAQ_container{
+    width: 100%;
+    min-height: auto;
+    background-color: orange;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 3px #636363c8;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.FAQ .FAQ_container .FAQ_Top{
+    width: 100%;
+    height: 45px;
+    /* background-color: olive; */
+}
+
+.FAQ .FAQ_container .FAQ_Top h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: #636363;
+    color: #ff2523;
+}
+
+
+
+.FAQ .FAQ_container .para{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;  
+}
+
+.FAQ .FAQ_container .para.expanded{
+    height: auto; 
+}
+
+.FAQ .FAQ_container .Show{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.FAQ .FAQ_container .Show{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.FAQ .FAQ_container .shadow{
+    position: absolute;
+    top: -50px;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(180deg,rgba(255,255,255,0) 0%,#f9f9f9 100%);
+    /* background-color: aqua; */
+}
+
+.FAQ .FAQ_container span{
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 10px;
+    color: #ff2523;
+}
+
+
+.FAQ .FAQ_List{
+    min-height: auto;
+    padding: 0 5px;
+    box-sizing: border-box;
+    /* background-color: #ecececb7; */
+    overflow-x: scroll;
+}
+
+.FAQ .FAQ_List .FAQ_Box{
+    width: 100%;
+    min-height: 40px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 15px;
+    /* background-color: #33ba33; */
+    background-color: #fff;
+    background-color: #fff4f4d4;
+    border: 1px solid #ff27235c;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.FAQ .FAQ_List .FAQ_Box .FAQ_Question,
+.FAQ .FAQ_List .FAQ_Box .FAQ_Answer{
+    width: 100%;
+    min-height: 30px;
+    /* background-color: yellow; */
+    display: flex;
+    font-size: 14px;
+}
+
+.FAQ .FAQ_List .FAQ_Box .FAQ_Answer{
+    display: none;
+}
+
+.FAQ .FAQ_List .FAQ_Box  .FAQ_Left{
+    width: 40px;
+    min-height: 100%;
+    /* background-color: violet; */
+    padding: 5px 0 0 5px;
+    box-sizing: border-box;
+}
+
+.FAQ .FAQ_List .FAQ_Box  .FAQ_Right{
+    width: calc(100% - 40px);
+    min-height: 100%;
+    padding: 5px 0 0 5px;
+    box-sizing: border-box;
+    /* background-color: rgb(130, 238, 234); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.FAQ .FAQ_List .FAQ_Box .FAQ_Question .FAQ_Right p{
+    color: #ff7900;
+    color: #000;
+    
+}
+
+.FAQ .FAQ_List .FAQ_Box .FAQ_Answer .FAQ_Right p{
+    color: rgb(62, 174, 141);
+    color: #636363;
+}
+
+.FAQ .FAQ_List .FAQ_Box  .FAQ_Right .FAQ_Box-AD i{
+    color: red;
+    cursor: pointer;
+    cursor: pointer;
+}

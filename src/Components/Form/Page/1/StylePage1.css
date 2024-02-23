@@ -1,0 +1,153 @@
+.Page1,
+.Page1 .container .Banner,
+.Page1 .container .Banner .Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Page1 {
+    width: 100%;
+    min-height: 60vh;
+    /* background-color: antiquewhite; */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.Page1 .container {
+    width: 1000px;
+    min-height: 60vh;
+    /* background-color: aqua; */
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #000;
+}
+
+.Page1 .container .Banner {
+    width: 100%;
+    height: 130px;
+    /* background-color: yellowgreen; */
+    flex-direction: column;
+    background-color: #fff;
+    position: relative;
+    border-bottom: 1px solid #000;
+}
+
+.Page1 .container .Banner p{
+    font-size: 12px;
+    /* padding-right: 10px; */
+    padding-top: 5px;
+    box-sizing: border-box;
+    color: rgb(219, 219, 219);
+}
+
+@media screen and (max-width:690px) {
+    .Page1 .container .Banner{
+        align-items: end;
+    }
+    .Page1 .container .Banner i
+    {
+        margin-right: 25px;
+    }
+    .Page1 .container .Banner p{
+        margin-right: 10px;
+    }
+    .Page1 .container .Banner .Logo i{
+        margin: 0;
+    }
+}
+
+.Page1 .container .Banner .Logo {
+    width: 90px;
+    position: absolute;
+    aspect-ratio: 1;
+    left: 20px;
+    top: calc(50% - 45px);
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+    border-radius: 5px;
+    border: 1px solid #1f1f1f;
+    z-index: 1;
+}
+
+.Page1 .container .Banner input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    /* background-color: violet; */
+    cursor: pointer;
+}
+
+.Page1 .container .Banner i{
+    font-size: 20px;
+    /* background-color: aqua; */
+    color: rgb(219, 219, 219);
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px dotted rgb(219, 219, 219)
+}
+
+.Page1 .container .Banner .Logo i{
+    font-size: 10px;
+    padding: 10px;
+}
+
+
+.Page1 .container .row{
+    width: 100%;
+    height: 80px;
+    /* background-color: aquamarine; */
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.Page1 .container .row p{
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.Page1 .container .row input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+}
+
+
+.Page1 .container .EmailPhone,
+.Page1 .container .WebsiteRating,
+.Page1 .container .EstdNACC{
+    /* background-color: olive; */
+    display: flex;
+}
+
+.Page1 .container .Email,
+.Page1 .container .Phone{
+    width: 50%;
+}
+
+.Page1 .container .Broucher{
+    /* background-color: beige; */
+    display: flex;
+    height: 50px;
+}
+
+
+.Page1 .container .Broucher input{
+    width: auto;
+    font-size: 14px;  
+    background-color: transparent;
+}
+
+.Page1 .container .Broucher p:nth-of-type(2){
+    cursor: pointer;
+    color: red;
+}

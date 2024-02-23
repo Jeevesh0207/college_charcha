@@ -1,0 +1,182 @@
+
+.Scholarship .Scholarship_Top{
+    display: flex;
+    align-items: center;
+}
+
+.Scholarship{
+    width: 100%;
+    min-height: auto;
+    /* background-color: aqua; */
+    background-color: #f4f4f4;
+    padding-left: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Scholarship .Scholarship_container{
+    width: 100%;
+    min-height: auto;
+    background-color: orange;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 3px #636363c8;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.Scholarship .Scholarship_container .Scholarship_Top{
+    width: 100%;
+    height: 45px;
+    /* background-color: olive; */
+}
+
+.Scholarship .Scholarship_container .Scholarship_Top h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: #636363;
+    color: #ff2523;
+}
+
+.Scholarship .Scholarship_container p{
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+
+
+.Scholarship .Scholarship_container .para{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;  
+}
+
+.Scholarship .Scholarship_container .para.expanded{
+    height: auto; 
+}
+
+.Scholarship .Scholarship_container .Show{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Scholarship .Scholarship_container .Show{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.Scholarship .Scholarship_container .shadow{
+    position: absolute;
+    top: -50px;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(180deg,rgba(255,255,255,0) 0%,#f9f9f9 100%);
+    /* background-color: aqua; */
+}
+
+.Scholarship .Scholarship_container .Showmore{
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 10px;
+    color: #ff2523;
+}
+
+
+
+.Scholarship .Scholarship_List .Box{
+    display: flex;
+    align-items: center;
+}
+
+.Scholarship .Scholarship_List{
+    min-height: auto;
+    padding: 0 5px;
+    box-sizing: border-box;
+    /* background-color: #ecececb7; */
+}
+
+.Scholarship .Scholarship_List .Box{
+    width: 100%;
+    min-height: 40px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Scholarship .Scholarship_List .Box  i{
+    color: red;
+    cursor: pointer;
+}
+
+.Scholarship .Scholarship_List{
+    min-height: auto;
+    padding: 0 5px;
+    box-sizing: border-box;
+    /* background-color: #ecececb7; */
+    overflow-x: scroll;
+}
+
+.Scholarship .Scholarship_List .Scholarship_Details{
+    width: 100%;
+    min-height: auto;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #fff;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.Scholarship .Scholarship_List .Scholarship_Box{
+    width: 100%;
+    min-height: 40px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #fff;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+.Scholarship .Scholarship_List table {
+    width: 100%; 
+    border-collapse: collapse;
+    /* background-color: #fff; */
+    border-radius: 5px;
+    overflow: hidden;
+    /* overflow-x: scroll; */
+    /* padding: 5px;
+    box-sizing: border-box; */
+}
+
+.Scholarship .Scholarship_List td {
+    text-align: left; 
+    padding: 10px; 
+    box-sizing: border-box;
+    word-wrap: break-word; 
+}
+
+.Scholarship .Scholarship_List tr:nth-child(odd) {
+    background-color: #fff4f4d4 
+}
+
+.Scholarship .Scholarship_List tr:first-child {
+    /* background-color: #4CAF50;  */
+    background-color: #003d5b;
+    background-color: #fd4542;
+    color: white; 
+}

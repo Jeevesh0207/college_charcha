@@ -1,0 +1,247 @@
+.Page4,
+.Page4 .container .Add-Btn,
+.Page4 .container .Box .Tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Page4 {
+    width: 100%;
+    min-height: 60vh;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Page4 .container {
+    width: 1000px;
+    min-height: 50vh;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #000;
+}
+
+@media screen and (max-width:1020px) {
+    .Page4 .container{
+        width: 98%;
+    }
+}
+
+.Page4 .container .row{
+    width: 100%;
+    height: 80px;
+    /* background-color: aquamarine; */
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.Page4 .container .row p{
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.Page4 .container .row input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+}
+
+.Page4 .container .DurationRating{
+    display: flex;
+}
+
+
+.Page4 .container .Fees{
+    display: flex;
+}
+
+@media screen and (max-width:480px) {
+    .Page4 .container .Fees{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.Page4 .container .Add-Btn{
+    width: 100%;
+    height: 50px;
+    /* background-color: yellow; */
+    margin: 10px 0;
+}
+
+.Page4 .container .Add-Btn button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #33ba33;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+.Page4 .container .Box .Top,
+.Page4 .container .Box .ExpectedExam,
+.Page4 .container .Box .Fees{
+    display: flex;
+    align-items: center;
+}
+
+.Page4 .List{
+    min-height: auto;
+    padding: 0 5px;
+    box-sizing: border-box;
+    background-color: #ecececb7;
+}
+
+.Page4 .container .Box{
+    width: 100%;
+    min-height: auto;
+    background-color: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+
+.Page4 .container .Box .Top{
+    width: 100%;
+    height: 40px;
+    /* background-color: wheat; */
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-weight: 500;
+    color: #1c1c1c;
+    justify-content: space-between
+}
+
+.Page4 .container .Box .Top i{
+    color: red;
+    cursor: pointer;
+}
+
+.Page4 .container .Box .Tag{
+    width: 100%;
+    height: 20px;
+    /* background-color: antiquewhite; */
+    padding-left: 10px;
+    box-sizing: border-box;
+    justify-content: start;
+    gap: 10px;
+    
+}
+
+.Page4 .container .Box .Tag span{
+    font-size: 13px;   
+}
+
+.Page4 .container .Box .Tag span:nth-of-type(1){
+    color: rgb(62, 174, 141);
+}
+.Page4 .container .Box .Tag span:nth-of-type(2){
+    color: rgb(255, 161, 0);
+}
+
+.Page4 .container .Box .Tag span i{
+    margin-right: 5px;
+}
+
+.Page4 .container .Box .ExpectedExam{
+    width: 100%;
+    height: 30px;
+    /* background-color: #33ba33; */
+    padding-left: 10px;
+    box-sizing: border-box;   
+}
+
+.Page4 .container .Box .ExpectedExam span{
+    font-size: 14px;
+    color: #1c1c1c;
+}
+
+.Page4 .container .Box .ExpectedExam span span{
+    color: #ff7900;
+}
+
+.Page4 .container .Box .Specialization{
+    width: 100%;
+    min-height: 20px;
+    /* background-color: yellow; */
+    display: flex;
+}
+
+.Page4 .container .Box .Specialization .Left{
+    width: 110px;
+    min-height: 20px;
+    /* background-color: violet; */
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: #1c1c1c;
+}
+
+.Page4 .container .Box .Cutoff .Left{
+    width: 60px;
+    /* background-color: #33ba33; */
+}
+
+.Page4 .container .Box .Cutoff .Right{
+    display: flex;
+    align-items: center;
+}
+
+.Page4 .container .Box .Specialization span{
+    font-size: 14px;
+}
+
+.Page4 .container .Box .Specialization .Right{
+    width: calc(100% - 110px);
+    min-height: 20px;
+}
+
+
+
+.Page4 .container .Box .Fees{
+    width: 100%;
+    min-height: 30px;
+    /* background-color: rgb(130, 198, 238); */
+    padding-left: 10px;
+    box-sizing: border-box;
+    /* gap: 40px; */
+    gap: 10px;
+    margin-top: 3px;
+    /* flex-wrap: wrap; */
+}
+
+@media screen and (max-width:512px) {
+    .Page4 .container .Box .Fees{
+        align-items: start;
+    }
+}
+
+.Page4 .container .Box .Fees span{
+    font-size: 14px;   
+    padding: 3px 5px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: rgb(255, 121, 0);
+    background-color: rgba(255, 121, 0, 0.1);
+}
+
+.Page4 .List .Box .Box-AD{
+    /* background-color: yellow; */
+    display: flex;
+    /* flex-direction: column; */
+    gap: 5px;
+}

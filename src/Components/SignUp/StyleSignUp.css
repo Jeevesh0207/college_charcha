@@ -1,0 +1,391 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.SignUp,
+.SignUp .SignUp-container,
+.SignUp .SignUp-container .OR,
+.SignUp .SignUp-container .GmailandFacebook,
+.SignUp .SignUp-container .Close,
+.SignUp .SignUp-container .VerifyOtp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignUp{
+    /* width: 100%;
+    min-height: 100vh;
+    /* background-color: #008009; */
+    /* background-color: #f9ada3; */
+    /* background-color: #ffffff68;  */
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+}
+
+.SignUp .SingnUp-popup{
+    width: 100%;
+    min-height: 400px;
+    box-sizing: border-box;
+}
+
+.SignUp .SignUp-container{
+    width: 900px;
+    min-height: 650px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    box-shadow: 0 0 5px #000;
+}
+
+.SignUp .SignUp-container .Close{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    /* background-color: #2e2e2e; */
+    top: -15px;
+    right: -15px;
+    border-radius: 50%;
+    background-color: #fafafa;
+}
+
+.SignUp .SignUp-container .Close i{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.SignUp .SignUp-container h1{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.SignUp .SignUp-container h1:nth-of-type(1){
+    color: #ff2523;
+    font-size: 30px;
+}
+
+.SignUp .SignUp-container h1:nth-of-type(2){
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.SignUp .SignUp-container h2{
+    font-size: 28px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.SignUp .SignUp-container p:nth-of-type(1){
+    text-align: center;
+    font-size: 20px;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.SignUp .SignUp-container .SignUp-box{
+    width: 100%;
+    min-height: auto;
+    /* background-color: #00a8f4; */
+    display: flex;
+    margin: 10px 0;
+}
+
+.SignUp .SignUp-container .SignUp-box .Left{
+    width: 50%;
+    min-height: 100%;
+    /* background-color: #00c4cc; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+}
+
+.SignUp .SignUp-container .SignUp-box .Right{
+    width: 50%;
+    min-height: 100%;
+    /* background-color: #ad00cc; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+}
+
+.SignUp .SignUp-container .SignUp-box .inpt-row{
+    width: 90%;
+    height: 50px;
+    /* background-color: #4caf4f; */
+    border-radius: 10px;
+    /* overflow: hidden; */
+    position: relative;
+    border: 1px solid #2e2e2e;
+    position: relative;
+}
+
+.SignUp .SignUp-container .SignUp-box .inpt-row p{
+    font-size: 11px;
+    position: absolute;
+    right: 10px;
+    top: -20px;
+    font-weight: 600;
+}
+
+.SignUp .SignUp-container .SignUp-box .inpt-row input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.SignUp .SignUp-container .SignUp-box .inpt-row i{
+    position: absolute;
+    top: calc(50% - 7px);
+    left: 12px;
+}
+
+.SignUp .SignUp-container .SignUp-box .password i:nth-of-type(2){
+    left: 92%;
+    cursor: pointer;
+}
+
+.SignUp .SignUp-container button{
+    padding: 12px 70px;
+    border-radius: 50px;
+    border: none;
+    margin: 10px 0;
+    background-color: #ff2523;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+
+.SignUp .SignUp-container p{
+    margin: 3px 0;
+    font-size: 16px;
+}
+
+.SignUp .SignUp-container p a{
+    text-decoration: none;
+    color: #2e2e2e;
+    font-weight: 600;
+}
+
+.SignUp .SignUp-container .OR{
+    width: 100%;
+    height: 15px;
+    /* background-color: #008009; */
+    gap:10px
+}
+
+.SignUp .SignUp-container .OR span{
+    font-size: 15px;
+}
+
+.SignUp .SignUp-container .OR p{
+    width: 150px;
+    height: 1px;
+    background-color: #2e2e2e;
+}
+
+.SignUp .SignUp-container .GmailandFacebook{
+    width: 100%;
+    height: 50px;
+    /* background-color: #00a8f4; */
+    margin: 3px 0;
+    gap: 15px;
+}
+
+.SignUp .SignUp-container .GmailandFacebook a{
+    text-decoration: none;
+}
+
+.SignUp .SignUp-container .GmailandFacebook .gmailbtn{
+    width: 130px;
+    height: 40px;
+    background-color: violet;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    background-color: #ff2523;
+    color: #fff;
+}
+
+.SignUp .SignUp-container .GmailandFacebook .facebook{
+    background-color: #5375e2;
+}
+
+.SignUp .SignUp-container .GmailandFacebook i{
+    padding: 0 5px 0 15px;
+    font-size: 17px;
+}
+
+.SignUp .SignUp-container .GmailandFacebook span{
+    width: 1.5px;
+    height: 70%;
+    /* background-color: #2e2e2e; */
+    background-color: #fff;
+    
+}
+
+.SignUp .SignUp-container .GmailandFacebook p{
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+    padding-left: 5px;
+}
+
+
+@media screen and (max-width:922px) {
+    .SignUp .SignUp-container{
+        width: 95%;
+        min-height: 690px;
+    }
+}
+
+@media screen and (max-width:646px) {
+    .SignUp .SignUp-container{
+        width: 95%;
+    }
+    .SignUp .SignUp-container .SignUp-box{
+        flex-direction: column;
+    }
+    .SignUp .SignUp-container .SignUp-box .Left,
+    .SignUp .SignUp-container .SignUp-box .Right{
+        width: 100%;
+    }
+    .SignUp .SignUp-container .SignUp-box .Right{
+        margin-top: 15px;
+    }
+    .SignUp .SignUp-container .SignUp-box .inpt-row{
+        height: 45px;
+    }
+    .SignUp .SignUp-container .OR p{
+        width: 90px;
+    }
+    .SignUp .SignUp-container p{
+        font-size: 15px;
+    }
+    .SignUp .SignUp-container h1:nth-of-type(2){
+        font-size: 18px;
+    }
+    .SignUp .SignUp-container .SignUp-box .inpt-row input{
+        font-size: 14px;
+    }
+    .SignUp .SignUp-container button{
+        padding: 8px 50px;
+    }
+    .SignUp .SignUp-container .SignUp-box .password i:nth-of-type(2){
+        left: 95%;
+    }
+}
+
+@media screen and (max-width:520px){
+    .SignUp .SignUp-container .SignUp-box .password i:nth-of-type(2){
+        left: 92%;
+    }
+    .SignUp .SignUp-container .OR span{
+        font-size: 14px;
+    }
+}
+
+@media (orientation: landscape) and (max-width:900px){
+    .SignUp{
+        display: block;
+    }
+    .SignUp .SingnUp-popup{
+        padding-top: 50px;
+    }
+    .SignUp .SignUp-container{
+        width: 650px;
+        min-height: 600px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+
+.SignUp .SignUp-container .VerifyOtp{
+    width: 500px;
+    min-height: 120px;
+    /* background-color: yellowgreen; */
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:510px) {
+    .SignUp .SignUp-container .VerifyOtp{
+        width: 90%;
+    }
+}
+
+.SignUp .SignUp-container .VerifyOtp .input-row{
+    width: 90%;
+    height: 45px;
+    /* background-color: #4caf4f; */
+    border-radius: 10px;
+    /* overflow: hidden; */
+    position: relative;
+    border: 1px solid #2e2e2e;
+    position: relative;
+
+}
+
+.SignUp .SignUp-container .VerifyOtp .input-row input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.SignUp .SignUp-container .VerifyOtp .Otp-btn{
+    /* background-color: #5375e2; */
+    display: flex;
+    gap: 20px;
+}
+
+.SignUp .SignUp-container .VerifyOtp .Otp-btn button{
+    padding: 10px 15px;
+    border-radius: 50px;
+    letter-spacing: 1.2;
+}
+
+.SignUp .SignUp-container .VerifyOtp .Otp-btn button:nth-of-type(1){
+    background-color: #fff;
+    border: 1px solid #ff2523;
+    color: #000;
+    letter-spacing: 1.2;
+}
+
+.SignUp .SignUp-container  .otp-time{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 2px 5px;
+    background-color: #ff2523;
+    border-radius: 5px;
+    color: #fff;
+}

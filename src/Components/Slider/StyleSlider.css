@@ -1,0 +1,29 @@
+.background-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(90%);
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: top center;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+  }
+  
+
+
+  .background-image.visible {
+    opacity: 1;
+  }

@@ -1,0 +1,225 @@
+.Form .top-steps,
+.Form .top-steps .step,
+.Form .top-steps .step span,
+.Form .Btn,
+.Form .Btn .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Form {
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    position: relative;
+}
+
+.Form .top-steps {
+    width: 100%;
+    height: 100px;
+    /* background-color: yellowgreen; */
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.Form .top-steps::-webkit-scrollbar {
+    display: none;
+}
+
+.Form .top-steps {
+    -ms-overflow-style: none
+}
+
+.Form .top-steps {
+    scrollbar-width: none;
+}
+
+.Form .top-steps .step {
+    min-width: 150px;
+    height: 80px;
+    /* background-color: antiquewhite; */
+    position: relative;
+    justify-content: end;
+}
+
+
+
+.Form .top-steps .step p {
+    position: absolute;
+    width: 100%;
+    top: calc(50% - 1px);
+    height: 2px;
+    /* background-color: red; */
+    background-color: rgb(219, 219, 219);
+}
+
+.Form .top-steps .step:nth-child(1) .No {
+    background-color: #ff2523;
+    color: #fff;
+}
+
+.Form .top-steps .step .No {
+    width: 40px;
+    aspect-ratio: 1;
+    background-color: rgb(219, 219, 219);
+    border-radius: 50%;
+    z-index: 1;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+}
+
+
+.Form .top-steps .step .title {
+    width: 150px;
+    position: absolute;
+    bottom: -25px;
+    font-size: 13px;
+    text-align: center;
+    color: #000;
+    /* background-color: rgb(139, 90, 26); */
+}
+
+.Form .top-steps .step:nth-child(1) .title,
+.Form .top-steps .step:nth-last-of-type(1) .title {
+    width: auto;
+    padding: 0 5px;
+}
+
+
+.Form .top-steps .step:nth-child(1) {
+    min-width: 40px;
+}
+
+.Form .Btn {
+    width: 100%;
+    height: 50px;
+    /* background-color: antiquewhite; */
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.Form .Btn .container {
+    width: 1000px;
+    height: 100%;
+    /* background-color: yellow; */
+    justify-content: end;
+    /* padding: 0 10px; */
+    gap: 10px;
+}
+
+.Form .Btn .container button {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ff2523;
+    color: #fff;
+    font-size: 15px;
+}
+
+@media screen and (max-width:1040px) {
+    .Form .top-steps {
+        justify-content: start;
+        overflow-x: scroll;
+    }
+}
+
+.Form .Loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000082;
+    z-index: 100;
+}
+
+.Form .loader {
+    transform: rotateZ(45deg);
+    perspective: 1000px;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    color: #fff;
+    /* background-color: aqua; */
+}
+
+.Form .loader:before,
+.Form .loader:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    transform: rotateX(70deg);
+    animation: 1s spin linear infinite;
+}
+
+.Form .loader:after {
+    color: #FF3D00;
+    transform: rotateY(70deg);
+    animation-delay: .4s;
+}
+
+@keyframes rotate {
+    0% {
+        transform: translate(-50%, -50%) rotateZ(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotateZ(360deg);
+    }
+}
+
+@keyframes rotateccw {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(-50%, -50%) rotate(-360deg);
+    }
+}
+
+@keyframes spin {
+
+    0%,
+    100% {
+        box-shadow: .2em 0px 0 0px currentcolor;
+    }
+
+    12% {
+        box-shadow: .2em .2em 0 0 currentcolor;
+    }
+
+    25% {
+        box-shadow: 0 .2em 0 0px currentcolor;
+    }
+
+    37% {
+        box-shadow: -.2em .2em 0 0 currentcolor;
+    }
+
+    50% {
+        box-shadow: -.2em 0 0 0 currentcolor;
+    }
+
+    62% {
+        box-shadow: -.2em -.2em 0 0 currentcolor;
+    }
+
+    75% {
+        box-shadow: 0px -.2em 0 0 currentcolor;
+    }
+
+    87% {
+        box-shadow: .2em -.2em 0 0 currentcolor;
+    }
+}

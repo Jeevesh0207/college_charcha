@@ -1,0 +1,170 @@
+.Page8,
+.Page8 .container .Add-Btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Page8 {
+    width: 100%;
+    min-height: 20vh;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Page8 .container {
+    width: 1000px;
+    min-height: 20vh;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #000;
+}
+
+@media screen and (max-width:1020px) {
+    .Page8 .container{
+        width: 98%;
+    }
+}
+
+.Page8 .container .row{
+    width: 100%;
+    min-height: auto;
+    /* background-color: aquamarine; */
+    padding: 5px 10px;
+    box-sizing: border-box;
+    /* margin-top: 10px */
+}
+
+.Page8 .container .row p{
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.Page8 .container .row input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+}
+
+
+.Page8 .container .row textarea{
+    width: 100%;
+    height: 10vh;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+    resize: none;
+}
+
+
+.Page8 .container .Add-Btn{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+}
+
+.Page8 .container .Add-Btn button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #33ba33;
+    color: #fff;
+    font-size: 15px;
+}
+
+.Page8 .List{
+    min-height: auto;
+    padding: 0 5px;
+    box-sizing: border-box;
+    background-color: #ecececb7;
+    overflow-x: scroll;
+}
+
+.Page8 .List .Box{
+    width: 100%;
+    min-height: 40px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 15px;
+    /* background-color: #33ba33; */
+    background-color: #fff;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.Page8 .List .Box .Question,
+.Page8 .List .Box .Answer{
+    width: 100%;
+    min-height: 30px;
+    /* background-color: yellow; */
+    display: flex;
+    font-size: 14px;
+}
+
+.Page8 .List .Box .Answer{
+    display: none;
+}
+
+.Page8 .List .Box  .Left{
+    width: 40px;
+    min-height: 100%;
+    /* background-color: violet; */
+    padding: 5px 0 0 5px;
+    box-sizing: border-box;
+}
+
+.Page8 .List .Box  .Right{
+    width: calc(100% - 40px);
+    min-height: 100%;
+    padding: 5px 0 0 5px;
+    box-sizing: border-box;
+    /* background-color: rgb(130, 238, 234); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.Page8 .List .Box  .Right .Box-AD{
+    display: flex;
+    gap: 7px;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+
+.Page8 .List .Box  .Right .Box-AD i{
+    color: red;
+    cursor: pointer;
+    cursor: pointer;
+}
+
+.Page8 .List .Box  .Right .Box-AD i:nth-of-type(1){
+    color: #000;
+}
+
+.Page8 .List .Box .Question .Right p{
+    color: #ff7900;
+    
+}
+
+.Page8 .List .Box .Answer .Right p{
+    color: rgb(62, 174, 141);
+}
+
+

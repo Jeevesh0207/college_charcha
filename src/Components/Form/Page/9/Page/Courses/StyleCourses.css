@@ -1,0 +1,259 @@
+
+.Courses .Courses_Top{
+    display: flex;
+    align-items: center;
+}
+
+.Courses{
+    width: 100%;
+    min-height: auto;
+    background-color: aqua;
+    background-color: #f4f4f4;
+    padding-left: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Courses .Courses_container{
+    width: 100%;
+    min-height: auto;
+    background-color: orange;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 3px #636363c8;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.Courses .Courses_container .Courses_Top{
+    width: 100%;
+    height: 45px;
+    /* background-color: olive; */
+}
+
+.Courses .Courses_container .Courses_Top h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: #636363;
+    color: #ff2523;
+}
+
+.Courses .Courses_container p{
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+
+
+.Courses .Courses_container .para{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;  
+}
+
+.Courses .Courses_container .para.expanded{
+    height: auto; 
+}
+
+.Courses .Courses_container .Show{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.Courses .Courses_container .Show{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.Courses .Courses_container .shadow{
+    position: absolute;
+    top: -50px;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(180deg,rgba(255,255,255,0) 0%,#f9f9f9 100%);
+    /* background-color: aqua; */
+}
+
+.Courses .Courses_container .Showmore{
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 10px;
+    color: #ff2523;
+}
+
+
+.Courses .Courses_List .Courses_Box .Courses_Top,
+.Courses .Courses_List .Courses_Box .Courses_ExpectedExam,
+.Courses .Courses_List .Courses_Box .Courses_Fees{
+    display: flex;
+    align-items: center;
+}
+
+.Courses .Courses_List{
+    min-height: auto;
+    padding: 0 5px;
+    box-sizing: border-box;
+    /* background-color: #ecececb7; */
+}
+
+.Courses .Courses_List .Courses_Box{
+    width: 100%;
+    min-height: auto;
+    /* background-color: #fff;s */
+    background-color: #fff4f4d4;
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ff27235c;
+}
+
+
+.Courses .Courses_List .Courses_Box .Courses_Top{
+    width: 100%;
+    height: 40px;
+    /* background-color: wheat; */
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-weight: 500;
+    color: #1c1c1c;
+    justify-content: space-between
+}
+
+.Courses .Courses_List .Courses_Box .Courses_Top i{
+    color: red;
+    cursor: pointer;
+}
+
+.Courses .Courses_List .Courses_Box .Courses_Tag{
+    width: 100%;
+    height: 20px;
+    /* background-color: antiquewhite; */
+    display: flex;
+    padding-left: 10px;
+    box-sizing: border-box;
+    justify-content: start;
+    gap: 10px;
+    
+}
+
+.Courses .Courses_List .Courses_Box .Courses_Tag span{
+    font-size: 13px;   
+}
+
+.Courses .Courses_List .Courses_Box .Courses_Tag span:nth-of-type(1){
+    color: rgb(62, 174, 141);
+}
+.Courses .Courses_List .Courses_Box .Courses_Tag span:nth-of-type(2){
+    color: rgb(255, 161, 0);
+}
+
+.Courses .Courses_List .Courses_Box .Courses_Tag span i{
+    margin-right: 5px;
+}
+
+.Courses .Courses_List .Courses_Box .Courses_ExpectedExam{
+    width: 100%;
+    height: 30px;
+    /* background-color: #33ba33; */
+    padding-left: 10px;
+    box-sizing: border-box;   
+}
+
+.Courses .Courses_List .Courses_Box .Courses_ExpectedExam span{
+    font-size: 14px;
+    color: #1c1c1c;
+}
+
+.Courses .Courses_List .Courses_Box .Courses_ExpectedExam span span{
+    color: #ff7900;
+}
+
+.Courses .Courses_List .Courses_Box .Courses_Specialization{
+    width: 100%;
+    min-height: 20px;
+    /* background-color: yellow; */
+    display: flex;
+    margin: 5px 0;
+}
+
+.Courses .Courses_List .Courses_Box .Courses_Specialization .Courses_Left{
+    width: 110px;
+    min-height: 20px;
+    /* background-color: violet; */
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: #1c1c1c;
+}
+
+.Courses .Courses_List .Courses_Box .Courses_Cutoff .Courses_Left{
+    width: 60px;
+    /* background-color: #33ba33; */
+}
+
+.Courses .Courses_List .Courses_Box .Courses_Cutoff .Courses_Right{
+    display: flex;
+    align-items: center;
+    /* background-color: #ff7900; */
+}
+
+.Courses .Courses_List .Courses_Box .Courses_Specialization span{
+    font-size: 14px;
+}
+
+.Courses .Courses_List .Courses_Box .Courses_Specialization p{
+    margin: 0;
+    font-size: 14px;
+}
+
+.Courses .Courses_List .Courses_Box .Courses_Specialization .Courses_Right{
+    width: calc(100% - 110px);
+    min-height: 20px;
+    /* background-color: #f4f4f4; */
+}
+
+
+
+.Courses .Courses_List .Courses_Box .Courses_Fees{
+    width: 100%;
+    min-height: 30px;
+    /* background-color: rgb(130, 198, 238); */
+    padding-left: 10px;
+    box-sizing: border-box;
+    /* gap: 40px; */
+    gap: 10px;
+    margin-top: 3px;
+    /* flex-wrap: wrap; */
+}
+
+@media screen and (max-width:512px) {
+    .Courses .Courses_List .Courses_Box .Courses_Fees{
+        align-items: start;
+    }
+}
+
+.Courses .Courses_List .Courses_Box .Courses_Fees span{
+    font-size: 14px;   
+    padding: 3px 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: rgb(255, 121, 0);
+    color: #ff2523;
+    background-color: rgba(255, 121, 0, 0.1);
+}
+
+.Courses .Courses_List .Courses_Box .Box-AD{
+    /* background-color: yellow; */
+    display: flex;
+    /* flex-direction: column; */
+    gap: 5px;
+}

@@ -1,0 +1,77 @@
+.Stats,
+.Stats .MaxBox,
+.Stats .MaxBox .item .Top,
+.Stats .MaxBox .item .Mid,
+.Stats .MaxBox .item .Bottom,
+.Stats .MaxBox .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Stats{
+    width: 100%;
+    min-height: 40vh;
+    /* background-color: aqua; */
+    /* background-color: #f9f9fd; */
+    background-color: #f3f3f3;
+    padding-bottom: 20px;
+    color: #ff2523;
+    /* margin-bottom: 30px; */
+}
+
+.Stats .MaxBox{
+    max-width: 1700px;
+    width: 100%;
+    min-height: 40vh;
+    /* background-color: yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+}
+
+.Stats .MaxBox .item{
+    min-width: 250px;
+    aspect-ratio: 1;
+    /* background-color: yellowgreen; */
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px ;
+    background-color: #fff;
+    flex-direction: column;
+}
+
+.Stats .MaxBox .item .Top,
+.Stats .MaxBox .item .Bottom{
+    width: 100%;
+    height: 70px;
+    /* background-color: violet; */
+}
+
+.Stats .MaxBox .item .Mid{
+    width: 100%;
+    height: 50px;
+    /* background-color: turquoise; */
+}
+
+.Stats .MaxBox .item .Bottom p{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+
+.Stats .MaxBox .item .Top i{
+    font-size: 30px;
+}
+
+.Stats .MaxBox .item .Mid{
+    font-size: 20px;
+}
+
+.Stats .MaxBox .item  h1{
+    /* color: #ff2523; */
+}  
+

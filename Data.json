@@ -1,0 +1,142 @@
+{
+  "BasicData": {
+    "Name": "IIT Delhi",
+    "Email": "www.iitdelhi.com",
+    "Phone": "9005049368",
+    "Website": "www.google.com",
+    "Rating": "4.5",
+    "State": "Delhi",
+    "Country": "India",
+    "LocationLink": "www.location.com",
+    "Estd": "1961",
+    "NACC": "A",
+    "YoutubeLink": "www.youtube.com",
+    "bannerImage": "blob:http://localhost:3000/2e54c92f-8bd1-433e-b875-36f18c365aab",
+    "logoImage": "blob:http://localhost:3000/49ee615e-3af6-4ed1-a0a0-10314e9e9b0b",
+    "Broucher": "blob:http://localhost:3000/33bcb73f-e67e-4130-b2e8-70791c4dab94"
+  },
+  "Summary": [
+    "IIT Delhi is India’s top Engineering and Research institution. IIT Delhi was established in 1961 and has a sprawling green campus of 320 Acres in Hauz Khas region of New Delhi, the National capital of India. The institute has 2 other satellite campuses located in Sonipat and Jhajjar. IIT Delhi Abu Dhabi campus is yet to be inaugurated and is expected to start courses soon. Globally, QS World University Ranking 2024 ranks IIT Delhi on 197. NIRF 2023 ranking of IIT Delhi stands at 2nd in the Engineering category. Also, the college ranks on top, i.e. #1 in India Today Engineering Ranking 2023.",
+    "IIT Delhi is India’s top Engineering and Research institution. IIT Delhi was established in 1961 and has a sprawling green campus of 320 Acres in Hauz Khas region of New Delhi, the National capital of India. The institute has 2 other satellite campuses located in Sonipat and Jhajjar. IIT Delhi Abu Dhabi campus is yet to be inaugurated and is expected to start courses soon. Globally, QS World University Ranking 2024 ranks IIT Delhi on 197. NIRF 2023 ranking of IIT Delhi stands at 2nd in the Engineering category. Also, the college ranks on top, i.e. #1 in India Today Engineering Ranking 2023.",
+    "IIT Delhi is India’s top Engineering and Research institution. IIT Delhi was established in 1961 and has a sprawling green campus of 320 Acres in Hauz Khas region of New Delhi, the National capital of India. The institute has 2 other satellite campuses located in Sonipat and Jhajjar. IIT Delhi Abu Dhabi campus is yet to be inaugurated and is expected to start courses soon. Globally, QS World University Ranking 2024 ranks IIT Delhi on 197. NIRF 2023 ranking of IIT Delhi stands at 2nd in the Engineering category. Also, the college ranks on top, i.e. #1 in India Today Engineering Ranking 2023."
+  ],
+  "Affilation": [
+    "IIT Delhi is India’s top Engineering and Research institution. IIT Delhi was established in 1961 and has a sprawling green campus of 320 Acres in Hauz Khas region of New Delhi, the National capital of India. The institute has 2 other satellite campuses located in Sonipat and Jhajjar. IIT Delhi Abu Dhabi campus is yet to be inaugurated and is expected to start courses soon. Globally, QS World University Ranking 2024 ranks IIT Delhi on 197. NIRF 2023 ranking of IIT Delhi stands at 2nd in the Engineering category. Also, the college ranks on top, i.e. #1 in India Today Engineering Ranking 2023.",
+    "IIT Delhi is India’s top Engineering and Research institution. IIT Delhi was established in 1961 and has a sprawling green campus of 320 Acres in Hauz Khas region of New Delhi, the National capital of India. The institute has 2 other satellite campuses located in Sonipat and Jhajjar. IIT Delhi Abu Dhabi campus is yet to be inaugurated and is expected to start courses soon. Globally, QS World University Ranking 2024 ranks IIT Delhi on 197. NIRF 2023 ranking of IIT Delhi stands at 2nd in the Engineering category. Also, the college ranks on top, i.e. #1 in India Today Engineering Ranking 2023.",
+    "IIT Delhi is India’s top Engineering and Research institution. IIT Delhi was established in 1961 and has a sprawling green campus of 320 Acres in Hauz Khas region of New Delhi, the National capital of India. The institute has 2 other satellite campuses located in Sonipat and Jhajjar. IIT Delhi Abu Dhabi campus is yet to be inaugurated and is expected to start courses soon. Globally, QS World University Ranking 2024 ranks IIT Delhi on 197. NIRF 2023 ranking of IIT Delhi stands at 2nd in the Engineering category. Also, the college ranks on top, i.e. #1 in India Today Engineering Ranking 2023."
+  ],
+  "Course": [
+    {
+      "Program": "Bachelor of Technology [B.Tech]",
+      "Duration": "4 Years",
+      "Rating": "5",
+      "ExamExpected": "JEE Advanced",
+      "FeesSponsored": "5L",
+      "FeesNonSponsored": "10L",
+      "Specialization": "Computer Science and Engineering , Mathematics And Computing , Engineering and Computational Mechanics , Biotechnology And Biochemical Engineering",
+      "Cutoff": "B.Tech Computer Science Engineering JEE-Advanced 2023 Cut off: 115"
+    },
+    {
+      "Program": "Master of Technology [M.Tech]",
+      "Duration": "2 Years",
+      "Rating": "4.3",
+      "ExamExpected": "GATE",
+      "FeesSponsored": "5L",
+      "FeesNonSponsored": "10L",
+      "Specialization": " Computer Science And Engineering , Vlsi Design |Data Science , Cyber Security , Robotics Engineering , Construction Engineering And Management",
+      "Cutoff": "B.Tech Computer Science Engineering JEE-Advanced 2023 Cut off: 115"
+    },
+    {
+      "Program": "Bachelor of Technology [B.Tech]",
+      "Duration": "4 Years",
+      "Rating": "4.5",
+      "ExamExpected": "JEE Advanced",
+      "FeesSponsored": "4L",
+      "FeesNonSponsored": "10L",
+      "Specialization": " Computer Science and Engineering, Mathematics And Computing, Engineering and Computational Mechanic, Biotechnology And Biochemical Engineering",
+      "Cutoff": "B.Tech Computer Science Engineering JEE-Advanced 2023 Cut off: 115"
+    }
+  ],
+  "Procedure": [
+    "Applicants should have completed his/her 10+2 from a recognized board of education with Physics, Chemistry, English, and Mathematics as main subjects.",
+    "Also, the applicants should have secured at least 60% marks in aggregate in the 10+2 level or equivalent qualifying examination.",
+    "Selection to the B.Tech program is strictly done on the basis of the marks secured by the candidates in JEE Advanced entrance exam followed by the JoSAA Counseling Process. ",
+    "The seat allotment is based on the college cutoff and the candidate's preference for courses and colleges."
+  ],
+  "PlacementTable": {
+    "Details": "IIT Delhi Placements 2024 Phase 1 has concluded. About 1000 students received 1050 placement offers (including pre-placement offers from 20 organizations). Students received more than 50 international offers. Some of the top recruiters included Air India, Microsoft, Texas Instruments, Goldman Sachs, Bajaj Auto etc.",
+    "Data": [
+      [
+        "Particulars",
+        "Placement Statistics 2023",
+        "Placement Statistics 2023",
+        "Placement Statistics 2023",
+        "Placement Statistics 2023"
+      ],
+      [
+        "No. of Offers",
+        "100",
+        "100",
+        "100",
+        "100"
+      ],
+      [
+        "No. of Offers",
+        "100",
+        "100",
+        "100",
+        "100"
+      ],
+      [
+        "No. of Offers",
+        "100",
+        "100",
+        "100",
+        "100"
+      ]
+    ]
+  },
+  "ScholarshipTable": {
+    "Details": "IIT Delhi Placements 2024 Phase 1 has concluded. About 1000 students received 1050 placement offers (including pre-placement offers from 20 organizations). Students received more than 50 international offers. Some of the top recruiters included Air India, Microsoft, Texas Instruments, Goldman Sachs, Bajaj Auto etc.",
+    "Data": [
+      [
+        "Particulars",
+        "Placement Statistics 2023",
+        "Placement Statistics 2022"
+      ],
+      [
+        "No. of Offers",
+        "1300",
+        "1300"
+      ],
+      [
+        "No. of International Offers",
+        "1300",
+        "1300"
+      ],
+      [
+        "No. of Offers",
+        "300",
+        "300"
+      ]
+    ]
+  },
+  "FAQ": [
+    {
+      "question": "IIT Delhi ( Amazing Journey of IIT Delhi).",
+      "answer": "This year, there are approximately 150 students enrolled in the mathematics and computing branch. It has become a highly sought-after course after computer science. As a second-year student, I don't have access to the statistics regarding the highest and lowest packages, but you can always find that information on the IITD website."
+    },
+    {
+      "question": "IIT Delhi ( Amazing Journey of IIT Delhi).",
+      "answer": "This year, there are approximately 150 students enrolled in the mathematics and computing branch. It has become a highly sought-after course after computer science. As a second-year student, I don't have access to the statistics regarding the highest and lowest packages, but you can always find that information on the IITD website."
+    },
+    {
+      "question": "IIT Delhi ( Amazing Journey of IIT Delhi).",
+      "answer": "This year, there are approximately 150 students enrolled in the mathematics and computing branch. It has become a highly sought-after course after computer science. As a second-year student, I don't have access to the statistics regarding the highest and lowest packages, but you can always find that information on the IITD website."
+    },
+    {
+      "question": "IIT Delhi ( Amazing Journey of IIT Delhi).",
+      "answer": "This year, there are approximately 150 students enrolled in the mathematics and computing branch. It has become a highly sought-after course after computer science. As a second-year student, I don't have access to the statistics regarding the highest and lowest packages, but you can always find that information on the IITD website."
+    }
+  ]
+}

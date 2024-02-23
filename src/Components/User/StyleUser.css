@@ -1,0 +1,311 @@
+
+.UserName,
+.User .container,
+.User .container .btn,
+.User .search_container,
+.User .search_container .search-box .search-logo,
+.User .search_container  .search-result .search-item .Left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.User .search_container  .search-result .search-item .Right{
+    display: flex;
+    align-items: center;
+}
+
+
+.User{
+    width: 100%;
+    min-height: calc(100vh - 100px);
+    /* background-color: aqua; */
+    /* background-color: #fff; */
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.UserName{
+    width: 100%;
+    height: 200px;
+    background-color: #f3f4fa;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.UserName button{
+    position: absolute;
+    padding: 8px 15px;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    background-color: #2e2e2e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.UserName img{
+    width: 100px;
+    padding-right: 20px;
+}
+
+.User .UserName h1{
+    font-size: 60px;
+}
+
+
+
+.User .container{
+    width: 100%;
+    min-height: 100px;
+    /* background-color: aquamarine; */
+}
+
+.User .container .btn{
+    width: 800px;
+    min-height: 100px;
+    /* background-color: olive; */
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.User .container .btn button{
+    padding: 12px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    /* margin: 10px; */
+    background-color: #ff2523;
+    color: #fff;
+}
+
+
+
+.User .container .btn button:nth-of-type(2){
+    z-index: 1;
+}
+
+@media screen and (max-width:576px) {
+    .User .UserName h1{
+        font-size: 35px;
+    }
+    .UserName img{
+        width: 80px;
+    }
+    .User .container .btn button{
+        width: 80%;
+    }
+}
+
+.User .search_container{
+    width: 100%;
+    height: 100px;
+    background-color: #f3f4fa;
+}
+
+.User .search_container .search-box{
+    width: 80%;
+    height: 45px;
+    /* background-color: #4c77af; */
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    /* overflow: hidden; */
+    background-color: #fff;
+    position: relative;
+}
+
+.User .search_container .search-box .search-logo{
+    width: 50px;
+    height: 100%;
+}
+
+.User .search_container .search-box .search-logo i{
+    font-size: 20px;
+    color: #2e2e2e;
+}
+
+.User .search_container .search-box .search-inpt{
+    width: calc(100% - 150px);
+    height: 100%;
+    background-color: #ff2523;
+    
+}
+
+.User .search_container .search-box .search-btn{
+    width: 100px;
+    height: 100%;
+    /* background-color: var(--yelowish_green); */
+}
+
+.User .search_container .search-box .search-inpt input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    /* padding-left: 10px; */
+    font-size: 18px;
+}
+
+.User .search_container .search-box .search-btn button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #ff2523;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+.User .search_container .search-box .search-btn button:hover{
+    background-color: #fa1512;
+}
+
+.User .search_container  .search-result{
+    width: 100%;
+    min-height: auto;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    /* background-color: #008009; */
+    background-color: #fff;
+    margin-top: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /* display: none; */
+}
+
+.User .search_container  .search-result .search-item{
+    width: 100%;
+    height: 50px;
+    /* background-color: var(--yelowish_green); */
+    /* margin: 2px 0; */
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.User .search_container  .search-result .search-item .Left{
+    width: 60px;
+    height: 100%;
+    /* background-color: #fa1512; */
+}
+
+
+.User .search_container .search-result .search-item .Left .img{
+    width: 80%;
+    height: 80%;
+    /* background-color: #00660e; */
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.User .search_container .search-result .search-item .Left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.User .search_container  .search-result .search-item .Right{
+    width: calc(100% - 60px);
+    height: 100%;
+    /* background-color: rgb(50, 166, 205); */
+    padding-left: 5px;
+    
+}
+
+.User .search_container .search-result .search-item .Right p {
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+@media screen and (max-width:883px) {
+    .User .search_container{
+        width: 100%;
+    }
+    .User .search_container .search-box{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .User .search_container .search-box{
+        height: 45px;
+    }
+    .User .search_container h2{
+        font-size: 18px;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .User .search_container .search-box .search-inpt input{
+        font-size: 15px;
+    }
+    .User .search_container .search-box .search-btn button{
+        font-size: 17px;
+    }
+}
+
+.User .delete-popup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.User .delete-popup {
+    position: fixed;
+    width: 400px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+@media screen and (max-width:500px) {
+    .User .delete-popup{
+        width: 250px;
+    }
+}
+
+.User .delete-popup p {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.User .delete-popup button {
+    background-color: #ff4d4f;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.User .delete-popup button:last-child {
+    background-color: #d9d9d9;
+    color: #000;
+}

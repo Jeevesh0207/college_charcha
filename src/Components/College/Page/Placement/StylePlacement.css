@@ -1,0 +1,182 @@
+
+.Placement .Placement_Top{
+    display: flex;
+    align-items: center;
+}
+
+.Placement{
+    width: 100%;
+    min-height: auto;
+    /* background-color: aqua; */
+    background-color: #f4f4f4;
+    padding-left: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Placement .Placement_container{
+    width: 100%;
+    min-height: auto;
+    background-color: orange;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 3px #636363c8;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+}
+
+.Placement .Placement_container .Placement_Top{
+    width: 100%;
+    height: 45px;
+    /* background-color: olive; */
+}
+
+.Placement .Placement_container .Placement_Top h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: #636363;
+    color: #ff2523;
+}
+
+.Placement .Placement_container p{
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+
+
+.Placement .Placement_container .para{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;  
+}
+
+.Placement .Placement_container .para.expanded{
+    height: auto; 
+}
+
+.Placement .Placement_container .Show{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Placement .Placement_container .Show{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.Placement .Placement_container .shadow{
+    position: absolute;
+    top: -50px;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(180deg,rgba(255,255,255,0) 0%,#f9f9f9 100%);
+    /* background-color: aqua; */
+}
+
+.Placement .Placement_container .Showmore{
+    cursor: pointer;
+    font-size: 15px;
+    margin-right: 10px;
+    color: #ff2523;
+}
+
+
+
+.Placement .Placement_List .Box{
+    display: flex;
+    align-items: center;
+}
+
+.Placement .Placement_List{
+    min-height: auto;
+    padding: 0 5px;
+    box-sizing: border-box;
+    /* background-color: #ecececb7; */
+}
+
+.Placement .Placement_List .Box{
+    width: 100%;
+    min-height: 40px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Placement .Placement_List .Box  i{
+    color: red;
+    cursor: pointer;
+}
+
+.Placement .Placement_List{
+    min-height: auto;
+    padding: 0 5px;
+    box-sizing: border-box;
+    /* background-color: #ecececb7; */
+    overflow-x: scroll;
+}
+
+.Placement .Placement_List .Placement_Details{
+    width: 100%;
+    min-height: auto;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #fff;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.Placement .Placement_List .Placement_Box{
+    width: 100%;
+    min-height: 40px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #fff;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+.Placement .Placement_List table {
+    width: 100%; 
+    border-collapse: collapse;
+    /* background-color: #fff; */
+    border-radius: 5px;
+    overflow: hidden;
+    /* overflow-x: scroll; */
+    /* padding: 5px;
+    box-sizing: border-box; */
+}
+
+.Placement .Placement_List td {
+    text-align: left; 
+    padding: 10px; 
+    box-sizing: border-box;
+    word-wrap: break-word; 
+}
+
+.Placement .Placement_List tr:nth-child(odd) {
+    background-color: #fff4f4d4 
+}
+
+.Placement .Placement_List tr:first-child {
+    /* background-color: #4CAF50;  */
+    background-color: #003d5b;
+    background-color: #fd4542;
+    color: white; 
+}

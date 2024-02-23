@@ -1,0 +1,223 @@
+
+.About .Head,
+.About .Head .Name,
+.About .Mid .Box .Box-btn,
+.About .Mid,
+.About .Mid .Box .Box-banner,
+.About,
+.About .Mid .Box .Box-details h3,
+.About .info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.About{
+    width: 100%;
+    min-height: 50vh;
+    /* flex-direction: column; */
+    background-color: #f3f4fc8b;
+}
+
+.About .MaxBox{
+    max-width: 1500px;
+    min-height: 50vh;
+    /* background-color: yellowgreen; */
+}
+
+.About .Head{
+    width: 100%;
+    min-height: 60px;
+    /* background-color: aqua; */
+    position: relative;
+    padding: 10px 0;
+}
+
+.About .Head .Name{
+    /* width: 100px; */
+    /* background-color: blue; */
+    position: relative;
+}
+
+.About .Head .Name span{
+    position: absolute;
+    bottom: -5px;
+    width: 250px;
+    height: 2.5px;
+    background-color: #ff2523;
+}
+
+@media screen and (max-width:900px) {
+    .About .Head{
+        padding: 10px 0;
+    }
+}
+
+.About .container{
+    width: 100%;
+    min-height: 430px;
+    /* background-color: yellow; */
+    display: flex;
+    /* padding:  0 50px; */
+    box-sizing: border-box;
+}
+
+.About .info{
+    width: 50%;
+    min-height: 100px;
+    padding: 0 70px;
+    /* background-color: antiquewhite; */
+    box-sizing: border-box;
+    text-align: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width:974px) {
+    .About .info{
+        padding: 0 40px;
+    }
+}
+
+.About .info p{
+    /* background-color: aqua; */
+    font-size: 16px;
+    margin: 6px 0;
+    text-align: left;
+    /* text-align: justify; */
+}
+
+@media screen and (max-width:600px) {
+    .About .info p{
+        margin: 2px 0;
+        /* text-align: center; */
+        text-align: left;
+    }
+}
+
+.About .Head h1{
+    font-size: 30px;
+    /* margin:  20px 0; */
+    text-align: center;
+    font-weight: 600;  
+    padding: 0;
+    margin: 0;  
+    /* font-family: 'Merienda', cursive; */
+}
+
+
+
+.About .Mid{
+    width: 50%;
+    min-height: 400px;
+    /* background-color: aquamarine; */
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media screen and (max-width:1126px) {
+    .About .container{
+        flex-direction: column;
+    }
+    .About .info{
+        width: 100%;
+        
+    }
+    .About .info p{
+        font-size: 15px;
+    }
+    .About .Mid{
+        width: 100%;
+    }
+}
+
+.About .Mid .Box{
+    width: 250px;
+    min-height: 350px;
+    /* background-color: beige; */
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #ffffff;
+    /* background-color: aqua; */
+    box-shadow: 0px 0px 5px #969696;
+    margin: 10px;
+}
+
+@media screen and (max-width:450px) {
+    .About .Mid .Box{
+        width: 80%;
+    }
+}
+
+
+
+.About .Mid .Box .Box-banner{
+    width: 100%;
+    height: 180px;
+    /* background-color: yellowgreen; */
+}
+
+.About .Mid .Box .Box-banner img{
+    width: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.About .Mid .Box .Box-details{
+    width: 100%;
+    min-height: auto;
+    /* min-height: auto; */
+    /* background-color: yellow; */
+    flex-direction: column;
+    gap: 10px;
+}
+
+.About .Mid .Box .Box-details h3{
+    font-size: 18px;
+    padding: 0;
+    height: 30px;
+    /* background-color: antiquewhite; */
+    text-align: center;
+    color: #000;
+    color: #ff2523;
+    /* padding-top: 10px; */
+    font-weight: 600;
+}
+
+
+.About .Mid .Box .Box-details h3:nth-of-type(2){
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.About .Mid .Box .Box-details p{
+    /* min-height:150px ; */
+    /* background-color: yellowgreen; */
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+}
+
+@media screen and (max-width:700px) {
+    .About .Mid .Box .Box-details p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.About .Mid .Box .Box-btn{
+    width: 100%;
+    height: 70px;
+    /* background-color: blue; */
+}
+
+.About .Mid .Box .Box-btn button{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ff2523;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}

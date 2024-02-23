@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.Forgot,
+.Forgot .Forgot-container,
+.Forgot .Forgot-container .OR,
+.Forgot .Forgot-container .GmailandFacebook,
+.Forgot .Forgot-container .Close,
+.Forgot .Forgot-container .forgot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Forgot {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+}
+
+.Forgot .Forgot-popup{
+    width: 100%;
+    min-height: 400px;
+    padding: 100px 0 70px 0;
+    box-sizing: border-box;
+}
+
+.Forgot .Forgot-container {
+    width: 500px;
+    min-height: 600px;
+    background-color: #fafafa;
+    border-radius: 10px;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    box-shadow: 0 0 5px #000;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+.Forgot .Forgot-container .Close {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    /* background-color: #2e2e2e; */
+    top: -15px;
+    right: -15px;
+    border-radius: 50%;
+    background-color: #fafafa;
+}
+
+.Forgot .Forgot-container .Close i {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.Forgot .Forgot-container h1 {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.Forgot .Forgot-container h1:nth-of-type(1) {
+    color: #ff2523;
+    font-size: 30px;
+}
+
+.Forgot .Forgot-container h1:nth-of-type(2) {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.Forgot .Forgot-container h2 {
+    font-size: 28px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.Forgot .Forgot-container p:nth-of-type(1) {
+    text-align: center;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.Forgot .Forgot-container .Forgot-box {
+    width: 100%;
+    min-height: auto;
+    margin: 5px 0;
+    /* background-color: #00a8f4; */
+    display: flex;
+}
+
+
+
+.Forgot .Forgot-container .Forgot-box .Right {
+    width: 100%;
+    min-height: 100%;
+    /* background-color: #ad00cc; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+
+.Forgot .Forgot-container .Forgot-box .inpt-row {
+    width: 90%;
+    height: 50px;
+    /* background-color: #4caf4f; */
+    border-radius: 10px;
+    /* overflow: hidden; */
+    position: relative;
+    border: 1px solid #2e2e2e;
+}
+
+.Forgot .Forgot-container .Forgot-box .inpt-row p {
+    font-size: 11px;
+    position: absolute;
+    right: 10px;
+    top: -20px;
+    font-weight: 600;
+}
+
+
+.Forgot .Forgot-container .Forgot-box .inpt-row input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.Forgot .Forgot-container .Forgot-box .Otp input{
+    padding: 0;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.Forgot .Forgot-container .Forgot-box .inpt-row i {
+    position: absolute;
+    top: calc(50% - 7px);
+    left: 12px;
+}
+
+.Forgot .Forgot-container .Forgot-box .password i:nth-of-type(2) {
+    left: 92%;
+    cursor: pointer;
+}
+
+.Forgot .Forgot-container button {
+    padding: 12px 40px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+    margin: 10px 0;
+    background-color: #ff2523;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+
+
+
+
+.Forgot .Forgot-container p a {
+    text-decoration: none;
+    color: #2e2e2e;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.Forgot .Forgot-container .OR {
+    width: 100%;
+    height: 15px;
+    /* background-color: #008009; */
+    gap: 10px
+}
+
+.Forgot .Forgot-container .OR span {
+    font-size: 15px;
+}
+
+.Forgot .Forgot-container .OR p {
+    width: 150px;
+    height: 1px;
+    background-color: #2e2e2e;
+}
+
+.Forgot .Forgot-container .GmailandFacebook {
+    width: 100%;
+    height: 50px;
+    /* background-color: #00a8f4; */
+    margin: 3px 0;
+    gap: 15px;
+}
+
+.Forgot .Forgot-container .GmailandFacebook a {
+    text-decoration: none;
+}
+
+.Forgot .Forgot-container .GmailandFacebook .gmailbtn {
+    width: 130px;
+    height: 40px;
+    background-color: violet;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    background-color: #ff2523;
+    color: #fff;
+}
+
+.Forgot .Forgot-container .GmailandFacebook .facebook {
+    background-color: #5375e2;
+}
+
+.Forgot .Forgot-container .GmailandFacebook i {
+    padding: 0 5px 0 15px;
+    font-size: 17px;
+}
+
+.Forgot .Forgot-container .GmailandFacebook span {
+    width: 1.5px;
+    height: 70%;
+    /* background-color: #2e2e2e; */
+    background-color: #fff;
+
+}
+
+.Forgot .Forgot-container .GmailandFacebook p {
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+    padding-left: 5px;
+}
+
+
+@media screen and (max-width:922px) {
+    .Forgot .Forgot-container {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:646px) {
+    .Forgot .Forgot-container {
+        width: 95%;
+    }
+
+    .Forgot .Forgot-container .Forgot-box {
+        flex-direction: column;
+    }
+
+    .Forgot .Forgot-container .Forgot-box .Left,
+    .Forgot .Forgot-container .Forgot-box .Right {
+        width: 100%;
+    }
+
+    .Forgot .Forgot-container .Forgot-box .Right {
+        margin-top: 5px;
+    }
+
+    .Forgot .Forgot-container .Forgot-box .inpt-row {
+        height: 45px;
+    }
+
+    .Forgot .Forgot-container .OR p {
+        width: 90px;
+    }
+
+    .Forgot .Forgot-container p {
+        font-size: 15px;
+    }
+
+    .Forgot .Forgot-container h1:nth-of-type(2) {
+        font-size: 18px;
+    }
+
+    .Forgot .Forgot-container .Forgot-box .inpt-row input {
+        font-size: 14px;
+    }
+
+    .Forgot .Forgot-container .Forgot-box .Otp input {
+        font-size: 20px;
+    }
+
+    .Forgot .Forgot-container button {
+        padding: 10px 40px;
+    }
+
+    .Forgot .Forgot-container .Forgot-box .password i:nth-of-type(2) {
+        left: 95%;
+    }
+}
+
+@media screen and (max-width:520px) {
+    .Forgot .Forgot-container .Forgot-box .password i:nth-of-type(2) {
+        left: 92%;
+    }
+
+    .Forgot .Forgot-container .OR span {
+        font-size: 14px;
+    }
+}
+
+.Forgot .Forgot-container .forgot {
+    width: 100%;
+    height: 20px;
+    /* background-color: #5375e2; */
+    justify-content: end;
+    padding-right: 25px;
+    box-sizing: border-box;
+}
+
+.Forgot .Forgot-container .forgot p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #6a6b77;
+}
+
+.Forgot .Forgot-container .forgot a {
+    text-decoration: none;
+}
+
+
+@media (orientation: landscape) and (max-width:900px){
+    .Forgot{
+        display: block;
+    }
+    .Forgot .Forgot-popup{
+        padding-top: 50px;
+    }
+    .Forgot .Forgot-container{
+        width: 650px;
+        min-height: 600px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
+
+
+.Forgot .Forgot-container .Otp-btn{
+    /* background-color: #5375e2; */
+    display: flex;
+    gap: 20px;
+}
+
+.Forgot .Forgot-container .Otp-btn button{
+    padding: 10px 15px;
+    border-radius: 50px;
+    letter-spacing: 1.2;
+}
+
+.Forgot .Forgot-container .Otp-btn button:nth-of-type(1){
+    background-color: #fff;
+    border: 1px solid #ff2523;
+    color: #000;
+    letter-spacing: 1.2;
+}
+
+.Forgot .Forgot-container   .otp-time{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 2px 5px;
+    background-color: #ff2523;
+    border-radius: 5px;
+    color: #fff;
+}

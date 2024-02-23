@@ -1,0 +1,130 @@
+.Admission .Admission_container .Process .Step_Box,
+.Admission .Admission_container .Process .Step_Box  .Step_container_Right,
+.Admission .Admission_container .Process .Step_Box  .Step_container_Right h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Admission .Admission_container .Process .Step_Box  .Step_container_Left{
+    display: flex;
+    align-items: center;
+}
+
+.Admission .Admission_Top{
+    display: flex;
+    align-items: center;
+}
+
+.Admission{
+    width: 100%;
+    min-height: auto;
+    background-color: aqua;
+    background-color: #f4f4f4;
+    padding-left: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Admission .Admission_container{
+    width: 100%;
+    min-height: auto;
+    background-color: orange;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 3px #636363c8;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.Admission .Admission_container .Admission_Top{
+    width: 100%;
+    height: 45px;
+    /* background-color: olive; */
+}
+
+.Admission .Admission_container .Admission_Top h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: #636363;
+    color: #ff2523;
+}
+
+.Admission .Admission_container p{
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.Admission .Admission_container .Process{
+    width: 100%;
+    min-height: 30px;
+    /* background-color: aquamarine; */
+}
+
+.Admission .Admission_container .Process .Step_Box{
+    width: 100%;
+    min-height: 100px;
+}
+
+.Admission .Admission_container .Process .Step_Box .Step_container{
+    width: 500px;
+    min-height: 70px;
+    background-color: #fff4f4;
+    border-radius: 50px;
+    display: flex;
+    overflow: hidden;
+    border: 2px solid #ff2723d4;
+    margin: 5px;
+}
+
+.Admission .Admission_container .Process .Step_Box .reverse{
+    flex-direction: row-reverse;
+}
+
+
+
+.Admission .Admission_container .Process .Step_Box  .Step_container_Left{
+    width: 90%;
+    min-height: 70px;
+    /* background-color: orange; */
+    padding: 5px 5px 5px 20px;
+    box-sizing: border-box;
+}
+
+
+.Admission .Admission_container .Process .Step_Box .reverse .Step_container_Left{
+    padding: 5px 5px 5px 5px;
+}
+
+
+.Admission .Admission_container .Process .Step_Box  .Step_container_Right{
+    width: 10%;
+    min-width: 70px;
+    /* background-color: turquoise; */
+}
+
+.Admission .Admission_container .Process .Step_Box  .Step_container_Right h1{
+    width: 50px;
+    aspect-ratio: 1;
+    /* background-color: antiquewhite; */
+    background-color: #fff;
+    padding: 5px;
+    color: #ff2523;
+    border-radius: 50%;
+    box-sizing: border-box;
+    /* border: 3px solid #ff2523; */
+}
+
+@media screen and (max-width:500px)  {
+    .Admission .Admission_container .Process .Step_Box .Step_container{
+        border-radius: 10px;
+    }
+    .Admission .Admission_container .Process .Step_Box  .Step_container_Right{
+        width: 50px;
+    }
+    .Admission .Admission_container .Process .Step_Box  .Step_container_Left{
+        padding-left: 10px;
+    }
+}

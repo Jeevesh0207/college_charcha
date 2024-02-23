@@ -1,0 +1,198 @@
+
+.MeetExpert .Head,
+.MeetExpert .Head .Name,
+.MeetExpert .Mid .Box .Box-btn,
+.MeetExpert .Mid,
+.MeetExpert .Mid .Box .Box-banner,
+.MeetExpert,
+.MeetExpert .Mid .Box .Box-details h3,
+.MeetExpert .info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MeetExpert{
+    width: 100%;
+    min-height: 50vh;
+    flex-direction: column;
+    /* background-color: #f3f4fc8b; */
+    background-color: #e6e9f98a;
+}
+
+.MeetExpert .Head{
+    width: 100%;
+    min-height: 60px;
+    /* background-color: aqua; */
+    position: relative;
+    padding: 10px 0;
+}
+
+.MeetExpert .Head .Name{
+    /* width: 100px; */
+    /* background-color: blue; */
+    position: relative;
+}
+
+.MeetExpert .Head .Name span{
+    position: absolute;
+    bottom: -5px;
+    width: 290px;
+    height: 2.5px;
+    background-color: #ff2523;
+}
+
+@media screen and (max-width:900px) {
+    .MeetExpert .Head{
+        padding: 10px 0;
+    }
+}
+
+
+.MeetExpert .info{
+    width: 100%;
+    min-height: 100px;
+    padding: 0 70px;
+    /* background-color: antiquewhite; */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+@media screen and (max-width:974px) {
+    .MeetExpert .info{
+        padding: 0 40px;
+    }
+}
+
+.MeetExpert .info p{
+    width: 700px;
+    margin: 2px 0;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+
+
+.MeetExpert .Head h1{
+    font-size: 30px;
+    /* margin:  20px 0; */
+    text-align: center;
+    font-weight: 600;  
+    padding: 0;
+    margin: 0;  
+    /* font-family: 'Merienda', cursive; */
+}
+
+.MeetExpert .Mid{
+    width: 100%;
+    min-height: 300px;
+    /* background-color: aquamarine; */
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media screen and (max-width:1126px) {
+    
+    .MeetExpert .info p{
+        font-size: 15px;
+        /* text-align: justify; */
+        /* text-align: left; */
+    }
+    .MeetExpert .Mid{
+        gap: 10px;
+    }
+}
+
+.MeetExpert .Mid .Box{
+    min-width: 250px;
+    min-height: 250px;
+    /* background-color: beige; */
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #ffffff;
+    /* background-color: aqua; */
+    box-shadow: 0px 0px 5px #969696;
+    margin: 5px;
+}
+
+@media screen and (max-width:450px) {
+    .MeetExpert .Mid .Box{
+        width: 80%;
+    }
+}
+
+
+
+.MeetExpert .Mid .Box .Box-banner{
+    width: 100%;
+    height: 180px;
+    /* background-color: yellowgreen; */
+}
+
+.MeetExpert .Mid .Box .Box-banner img{
+    width: 150px;
+    aspect-ratio: 1;
+    box-shadow: 0px 0px 5px #969696;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.MeetExpert .Mid .Box .Box-details{
+    width: 100%;
+    min-height: auto;
+    /* min-height: auto; */
+    /* background-color: yellow; */
+    flex-direction: column;
+    gap: 10px;
+}
+
+.MeetExpert .Mid .Box .Box-details h3{
+    font-size: 18px;
+    padding: 0;
+    height: 30px;
+    /* background-color: antiquewhite; */
+    text-align: center;
+    color: #000;
+    color: #ff2523;
+    /* padding-top: 10px; */
+    font-weight: 600;
+}
+
+
+.MeetExpert .Mid .Box .Box-details h3:nth-of-type(2){
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.MeetExpert .Mid .Box .Box-details p{
+    /* min-height:150px ; */
+    /* background-color: yellowgreen; */
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+}
+
+@media screen and (max-width:700px) {
+    .MeetExpert .Mid .Box .Box-details p{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.MeetExpert .Mid .Box .Box-btn{
+    width: 100%;
+    height: 70px;
+    /* background-color: blue; */
+}
+
+.MeetExpert .Mid .Box .Box-btn button{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ff2523;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+}
